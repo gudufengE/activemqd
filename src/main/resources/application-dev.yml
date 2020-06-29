@@ -1,0 +1,18 @@
+project:
+  version: 1.0
+debug: false
+logging:
+  level:
+    root: info
+server:
+  port: 8084
+  servlet:
+    context-path: /
+
+# Swagger
+swagger:
+  host: localhost
+  title: activeMQ-demo
+  description: activeMQ-demo
+  author: pc
+

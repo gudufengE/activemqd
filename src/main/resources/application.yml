@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    view: # 视图相关
+      prefix: /templates/
+      suffix: .html
+  thymeleaf:
+    cache: false
+  output:
+    ansi:
+      enabled: ALWAYS # 输出带颜色的日志信息
+  profiles:
+    active: dev # 设置激活的环境
+#activemq:
+# broker-url : tcp://192.168.91.128:61616  #使用外部activeMQ
